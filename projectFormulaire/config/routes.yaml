@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+homepage:
+  path: /Accueil
+  controller: App\Controller\AccueilController::index
+
+contact:
+  path: /Contact
+  controller: App\Controller\ContactController::index
+
+description:
+    path: /Description
+    controller: App\Controller\DescriptionController::index
+
